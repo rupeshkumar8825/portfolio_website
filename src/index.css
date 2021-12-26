@@ -1,0 +1,10 @@
+/* adding the css for the app component in this file  */
+@import url("https://fonts.googleapis.com/css2?family=Monda&display=swap");
+
+* {
+  margin: 00px;
+  box-sizing: border-box;
+  padding: 00px;
+  background-color: black;
+  font-family: "Monda", sans-serif;
+}
