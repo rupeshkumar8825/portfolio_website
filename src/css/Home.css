@@ -1,10 +1,15 @@
 /* this is the css for the home cnsists of the navbar as well  */
 .navigation {
-  border: 2px solid white;
+  /* border: 2px solid white; */
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 20px;
+  position: fixed;
+  top: 00px;
+  left: 00px;
+  right: 00px;
+  z-index: 100;
 }
 
 .navigation h1 {

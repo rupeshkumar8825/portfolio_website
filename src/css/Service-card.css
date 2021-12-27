@@ -1,0 +1,21 @@
+/* this is the css for the service cards of various services that i provide to the clients  */
+
+.service-card {
+  border: 0.1px solid white;
+  width: 30%;
+  padding: 2%;
+  margin: 1%;
+  box-shadow: 6px 12px 12px rgb(120, 115, 115);
+}
+
+.service-card img {
+  /* border: 2px solid red; */
+  border-radius: 15%;
+  height: 80px;
+  width: 80px;
+}
+
+.service-card h1,
+.service-card p {
+  color: white;
+}
