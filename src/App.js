@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import About from './components/About';
 import Service from './components/Service';
 import Works from './components/Works';
-
+import Contact from './components/Contact';
 
 // calling the function if the component is being scrolled 
 // defining the onscroll handler for this in the react
@@ -68,6 +68,7 @@ const App = () => {
             <About></About>
             <Service></Service>
             <Works></Works>
+            <Contact></Contact>
         </>
     )
 }

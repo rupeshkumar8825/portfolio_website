@@ -40,9 +40,17 @@
 
 .work-contents h2 {
   color: white;
+  /* margin-left: 2px; */
+  /* padding: 10px; */
+  text-align: center;
 }
 
 .work-contents p {
   color: white;
   /* color: blue; */
+  text-align: center;
+}
+
+.works a {
+  text-decoration: none;
 }
