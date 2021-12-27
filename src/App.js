@@ -2,6 +2,7 @@
 import React from 'react';
 import "./index.css"
 import Home from "./components/Home";
+import About from './components/About';
 
 // defining the funciton for the component 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
     return (
         <>
             <Home></Home>
+            <About></About>
         </>
     )
 }

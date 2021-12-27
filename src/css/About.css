@@ -1,0 +1,68 @@
+/* the css for the about page of the portfolio  website for this purpose */
+.about-container {
+  /* border: 2px solid white; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 85%;
+  margin: auto;
+  /* padding: 10px; */
+  background-color: rgba(39, 38, 38, 0.871);
+  margin-top: 10%;
+  margin-bottom: 10%;
+  /* box-shadow: 6px 12px 12px white; */
+  /* background-color: red; */
+}
+
+.about-container h1 {
+  text-align: center;
+  color: white;
+  background-color: rgba(39, 38, 38, 0.871);
+  padding: 5%;
+  font-weight: lighter;
+}
+.about-container h1,
+.about-content h2,
+.about-content p {
+  background-color: rgba(39, 38, 38, 0.871);
+}
+
+.about-content {
+  /* border: 2px solid red; */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(39, 38, 38, 0.871);
+  padding: 5%;
+}
+
+.about-content img {
+  height: 50%;
+  width: 60%;
+  box-shadow: 6px 12px 12px white;
+}
+.main-content {
+  /* padding: 10%; */
+  /* width: 90%; */
+  margin-left: 5%;
+  background-color: rgba(39, 38, 38, 0.871);
+}
+
+#about-tagline {
+  background-color: rgba(39, 38, 38, 0.871);
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#about-intro {
+  background-color: rgba(39, 38, 38, 0.871);
+  font-weight: bold;
+  display: block;
+}
+
+#about-detailed-intro {
+  background-color: rgba(39, 38, 38, 0.871);
+  display: block;
+}
