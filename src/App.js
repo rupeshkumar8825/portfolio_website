@@ -4,7 +4,7 @@ import "./index.css"
 import Home from "./components/Home";
 import About from './components/About';
 import Service from './components/Service';
-
+import Works from './components/Works';
 
 
 // calling the function if the component is being scrolled 
@@ -51,6 +51,8 @@ const handleOnScroll = () => {
     // say everything went fine 
     return;
 }
+
+// this is the event handler for the scrolling the window down to the webpage 
 window.onscroll = function () { handleOnScroll() };
 
 
@@ -65,6 +67,7 @@ const App = () => {
             <Home></Home>
             <About></About>
             <Service></Service>
+            <Works></Works>
         </>
     )
 }
