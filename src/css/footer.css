@@ -1,0 +1,51 @@
+/* this is the css for the footer part  */
+#footer-heading {
+  color: white;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  /* border: 2px solid white; */
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding: 1%;
+  background-color: rgba(39, 38, 38, 0.871);
+}
+
+.footer-icons {
+  background-color: rgba(39, 38, 38, 0.871);
+
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.footer-icons p {
+  color: white;
+  background-color: rgba(39, 38, 38, 0.871);
+}
+
+.footer-content {
+  /* border: 2px solid white; */
+  background-color: rgba(39, 38, 38, 0.871);
+}
+
+.footer-content p {
+  color: white;
+  background-color: rgba(39, 38, 38, 0.871);
+}
+
+.footer-content h3 {
+  text-align: center;
+
+  color: white;
+  background-color: rgba(39, 38, 38, 0.871);
+}
