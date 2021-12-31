@@ -24,15 +24,18 @@ const Service = () => {
 
     return (
         <>
-            <h1 id='service-heading'>Services</h1>
-            <div className="service-container">
-                <ServiceCards image={development} heading="Development" content={content1}></ServiceCards>
-                <ServiceCards image={design} alt="loading" heading="Design" content={content1}></ServiceCards>
-                <ServiceCards image={seo} alt="loading" heading="SEO" content={content1}></ServiceCards>
-                <ServiceCards image={youtubers} alt="loading" heading="Youtubers" content={content1}></ServiceCards>
-                <ServiceCards image={startups} alt="loading" heading="Startups" content={content1}></ServiceCards>
-                <ServiceCards image={support} alt="loading" heading="Support" content={content1}></ServiceCards>
+            <div id='service'>
+                <h1 id='service-heading'>Services</h1>
+                <div className="service-container">
+                    <ServiceCards image={development} heading="Development" content={content1}></ServiceCards>
+                    <ServiceCards image={design} alt="loading" heading="Design" content={content1}></ServiceCards>
+                    <ServiceCards image={seo} alt="loading" heading="SEO" content={content1}></ServiceCards>
+                    <ServiceCards image={youtubers} alt="loading" heading="Youtubers" content={content1}></ServiceCards>
+                    <ServiceCards image={startups} alt="loading" heading="Startups" content={content1}></ServiceCards>
+                    <ServiceCards image={support} alt="loading" heading="Support" content={content1}></ServiceCards>
 
+
+                </div>
 
             </div>
         </>
