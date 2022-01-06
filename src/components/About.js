@@ -18,6 +18,8 @@ const About = () => {
                             <span id='about-intro'>I am a professional web designer and developer from Bihar, India.</span>
 
                             <span id='about-detailed-intro'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsum laboriosam quas labore autem nulla laudantium accusantium amet et. Odio consectetur ipsum, ab, non repellat illo mollitia asperiores obcaecati, alias harum ipsa quos nostrum molestias. Non et eius fugit quo vero id minima facilis. Corrupti dignissimos est ab quis porro?</span></p>
+                        {/* adding the button for the resume. The link to the resume will be provided  */}
+                        <a href="https://drive.google.com/file/d/1Gf-gvTbZGLDRY7-4ZWTaDopNknKahi-Q/view"><button className="resume-button">Resume</button></a>
                     </div>
                 </div>
             </div>

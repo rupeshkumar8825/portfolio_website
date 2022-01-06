@@ -66,3 +66,23 @@
   background-color: rgba(39, 38, 38, 0.871);
   display: block;
 }
+
+/* adding the css for the button of the resume  */
+.resume-button {
+  border: 1px solid white;
+  text-decoration: none;
+  background-color: white;
+  padding: 1%;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 5%;
+  width: 25%;
+  background-color: rgb(27, 101, 240);
+}
+
+.resume-button:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
