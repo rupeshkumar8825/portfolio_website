@@ -1,52 +1,81 @@
 /* Adding the css for the process section of the website  */
 .process {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
   flex-direction: column;
+  /* flex-wrap: wrap; */
   align-items: center;
   justify-content: space-evenly;
-  background-color: white;
-  height: 500px;
+  background-color: black;
+  /* height: 600px; */
+  width: 100%;
 }
 
 .process-container {
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: white;
+  background-color: black;
   flex-wrap: wrap;
-  height: 90%;
+  /* height: 90%; */
+  /* flex-wrap: wrap; */
+  width: 100%;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
+
+/* .process-heading */
 
 .step-container,
 .step-number,
 .step-content,
-.step-content p {
+.step-content p,
+.step-container h1,
+.step-container p,
+.step-container h2 {
   background-color: white;
 }
+
 .process-heading {
-  border: 2px solid black;
-  color: black;
+  /* border: 2px solid black; */
+  color: white;
+  font-weight: lighter;
   text-align: center;
-  background-color: white;
+  /* background-color: black ; */
 }
 
 /* desinging the each steps in the detailed manner  */
 .step-container {
-  border: 2px solid black;
-  width: 20%;
-  height: 60%;
+  /* border: 2px solid black; */
+  border-radius: 5%;
+  width: 22%;
+  height: 350px;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
-  /* align-items: center; */
+  /* justify-content: center; */
+  margin: 1%;
+  align-items: center;
+  /* padding: 1%; */
+  text-align: center;
+}
+
+.step-container h2 {
+  /* border: 2px solid black; */
+  border-radius: 50%;
+  display: flex;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+  color: black;
 }
 
 .step-number {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   background-color: coral;
-  color: black;
+  /* color: white; */
   display: inline-block;
   /* width:  ; */
   /* font-size:  2rem; */
@@ -57,19 +86,81 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 
+/* 
 .step-content {
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-  /* justify-content: center; */
-  /* height: 90%; */
-}
+/* justify-content: center; */
+/* height: 90%; */
+/* }  */
 
-.step-content h1 {
+.step-container h1 {
   background-color: white;
   font-size: 1.2rem;
   text-align: center;
+  margin-top: 15%;
+  /* color: black; */
+}
+
+#step1,
+#step1 h1,
+#step1 p,
+#step2,
+#step2 h1,
+#step2 p,
+#step3,
+#step3 h1,
+#step3 p,
+#step4,
+#step4 h1,
+#step4 p {
+  /* background-color: rgb(248, 166, 190); */
+  /* background-color: #141414; */
+  /* background-color: #3d3d3d; */
+  /* background-color: rgb(0, 33, 71); */
+  /* background-color: #023020; */
+  /* background-color: #e2dfd2; */
+  /* background-color: #191970; */
+  background-color: #262f35;
+
+  /* color: rgb(133, 133, 233); */
+  color: white;
+}
+
+/* adding the hover effects of the cards for the steps  */
+#step1:hover,
+#step2:hover,
+#step3:hover,
+#step4:hover {
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
+  /* box-shadow: 6px 12px 20px white; */
+  position: relative;
+  cursor: pointer;
+}
+
+/* adding the psuedo selectors to this  */
+#step1:hover::after,
+#step2:hover::after,
+#step3:hover::after,
+#step4:hover::after {
+  content: "Contact Us";
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  opacity: 0.8;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 00px;
+  left: 00px;
+  z-index: 1;
+  background-color: white;
+  /* border: 2px solid darkred; */
 }
