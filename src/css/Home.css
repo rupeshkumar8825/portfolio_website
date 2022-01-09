@@ -46,6 +46,123 @@
   font-weight: light;
 }
 
+/* css for the navigation for the responsive website  */
+.navigation2 {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  /* top: 90px; */
+  /* margin-top: 100px; */
+  top: 00px;
+  left: 00px;
+  /* border: 2px solid red; */
+  position: fixed;
+  background-color: white;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  /* position: absolute; */
+  /* padding: 3%; */
+}
+
+.navbar2 {
+  /* border: 2px solid green; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+  top: 00px;
+  left: 00px;
+  /* z-index: 1000; */
+}
+
+.navbar2 li {
+  list-style: none;
+  margin-bottom: 5%;
+}
+
+.navbar2 li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  /* margin-top: 25%; */
+  /* margin-bottom:  ; */
+}
+
+.navbar2 li a:hover {
+  color: red;
+  text-decoration: none;
+  font-size: 1.4rem;
+  /* margin-top: 25%; */
+  /* margin-bottom:  ; */
+}
+
+/* css for the hamburger  */
+.hamburger {
+  /* border: 2px solid white; */
+  width: 5%;
+  height: 10%;
+  display: none;
+}
+
+.line {
+  background-color: white;
+  height: 3px;
+  margin-bottom: 5px;
+  border: 1px solid white;
+  display: none;
+}
+
+/* writing the css for the navbar for the responsiveness of the navigation menu using the media query  */
+
+@media only screen and (max-width: 1000px) {
+  .navigation h1 {
+    font-size: 1rem;
+  }
+
+  .navbar li a {
+    font-size: 1rem;
+    /* margin-right: 00px; */
+  }
+
+  .navbar li {
+    margin-right: 00px;
+  }
+}
+
+/* adding the media query for the width 700px  */
+@media only screen and (max-width: 700px) {
+  .navigation {
+    border: 2px solid white;
+    justify-content: space-between;
+    /* margbo  */
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .line {
+    display: block;
+  }
+
+  .navigation2 {
+    /* display: block; */
+    margin-top: 70px;
+    height: 500px;
+  }
+
+  /* adding the css for the navigation menu for the responsiveness of the navbar of this website  */
+}
 /* ##################################################################################################################### CSS FOR THE HOME CONTAINER ##########################
 ###################################################################################### */
 
@@ -78,4 +195,4 @@
   font-weight: 800;
 }
 
-/* adding the responsive code for the better look of the website on the phone for the clients  */
+/* adding the css for the responsiveness of the website using the media query for this purpose  */

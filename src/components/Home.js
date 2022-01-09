@@ -11,7 +11,7 @@ const Home = () => {
         <>
             <Navbar></Navbar>
             {/* adding the rest of the portion for the website  */}
-            <div className="home-container">
+            <div className="home-container" id='home'>
                 <h3>Hi There, I'm</h3>
                 <h1>Rupesh Kumar</h1>
                 <p>Web Developer, Web Designer, Passionate Learner</p>
