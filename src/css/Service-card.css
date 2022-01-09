@@ -3,8 +3,9 @@
 .service-card {
   border: 0.1px solid white;
   width: 30%;
-  padding: 2%;
+  padding: 1%;
   margin: 1%;
+  height: 350px;
   box-shadow: 6px 12px 12px rgb(120, 115, 115);
   /* background-color: #21213d; */
   /* background-color: #1b1212; */
@@ -18,9 +19,30 @@
   border-radius: 15%;
   height: 80px;
   width: 80px;
+  margin-top: 20px;
 }
 
 .service-card h1,
 .service-card p {
   color: white;
+}
+
+/* writing the css for the responsiveness of the services of section  */
+@media only screen and (max-width: 1000px) {
+  .service-card {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .service-card {
+    width: 50%;
+    margin-bottom: 15%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .service-card {
+    width: 80%;
+  }
 }

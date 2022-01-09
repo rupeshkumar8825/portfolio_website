@@ -188,10 +188,6 @@
 }
 
 @media only screen and (max-width: 750px) {
-  .skill-bar p {
-    /* display: none; */
-    /* width: 100%; */
-  }
   .particular-skill {
     width: 50%;
   }

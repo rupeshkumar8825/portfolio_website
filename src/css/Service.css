@@ -14,12 +14,25 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  width: 80%;
+  width: 90%;
   margin: auto;
-  margin-bottom: 4%;
+  margin-bottom: 6%;
 }
 
 .service-container h1 {
   text-align: left;
   margin-bottom: 1%;
+}
+
+/* adding the css for the responsiveness  */
+@media only screen and (max-width: 660px) {
+  #service-heading {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #service-heading {
+    margin-top: 300px;
+  }
 }
