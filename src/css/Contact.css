@@ -25,9 +25,11 @@
   /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   width: 20%;
+  height: 100%;
+  /* margin-top: 2%; */
 }
 
 .personal-details h2,
@@ -50,30 +52,33 @@
   justify-content: space-between;
   align-items: center;
   width: 80%;
+  /* height: 100%; */
   /* margin-top: 1%; */
 }
 .formpart1 {
   width: 90%;
   /* border: 2px solid yellow; */
-  height: 100px;
+  /* height: 100px; */
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
   flex-direction: column;
   /* height: 100%; */
   margin: 3%;
+  /* padding: 1%; */
 }
 
 .contact-form form input {
   /* display: block; */
   width: 90%;
-  height: 40%;
+  height: 40px;
+  margin-bottom: 10%;
   /* height: 20px; */
 }
 
 .contact-form textarea {
   /* border: 2px solid yellow; */
-  height: 100px;
+  height: 100%;
   width: 100%;
   /* margin: 10%; */
 }
@@ -88,8 +93,27 @@
 
 /* adding the hover effect for the button part  */
 .contact-form button:hover {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-color: white;
   color: black;
   cursor: pointer;
+}
+
+.phone-details,
+.email-details,
+.address-details {
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 21%;
+}
+
+.address-details p,
+.phone-details p,
+.email-details p {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 0.8rem;
 }

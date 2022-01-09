@@ -19,6 +19,11 @@ const Contact = () => {
                         <h2>Email-id</h2>
                         <p>rk763130@gmail.com</p>
                     </div>
+                    <div className="address-details">
+                        <h2>Address</h2>
+                        <p>Lalapur, kudra</p>
+                        <p>District = Kaimur, Bihar, Near Gayatri Studio</p>
+                    </div>
                 </div>
                 {/* now adding section for the user to send message if he/she wants to talk or send some of the query  */}
                 <div className="contact-form">
