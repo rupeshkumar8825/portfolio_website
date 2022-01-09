@@ -23,14 +23,16 @@
   align-items: center;
   padding: 2%;
   background-color: rgba(39, 38, 38, 0.871);
+  flex-wrap: wrap;
 }
 
 .work-contents {
   /* border: 2px solid white; */
-  width: 30%;
+  width: 40%;
   /* padding: 2%; */
-  background-color: rgba(39, 38, 38, 0.871);
+  /* background-color: rgba(39, 38, 38, 0.871); */
   box-shadow: 2px 8px 15px white;
+  height: 400px;
 }
 
 .work-contents img {
@@ -53,4 +55,19 @@
 
 .works a {
   text-decoration: none;
+}
+
+/* writing the css for the responsice website for the portfolio website  */
+@media only screen and (max-width: 1000px) {
+  .work-contents {
+    width: 60%;
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .work-contents {
+    width: 100%;
+    margin-top: 20px;
+  }
 }
