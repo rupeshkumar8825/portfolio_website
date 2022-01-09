@@ -23,14 +23,18 @@
   align-items: center;
   padding: 2%;
   background-color: rgba(39, 38, 38, 0.871);
+  flex-wrap: wrap;
 }
 
 .work-contents {
   /* border: 2px solid white; */
-  width: 30%;
+  width: 35%;
   /* padding: 2%; */
   background-color: rgba(39, 38, 38, 0.871);
   box-shadow: 2px 8px 15px white;
+  height: 400px;
+  background-color: black;
+  margin-bottom: 4%;
 }
 
 .work-contents img {
@@ -53,4 +57,35 @@
 
 .works a {
   text-decoration: none;
+}
+
+/* adding the media query for this purpose  */
+@media only screen and (max-width: 1100px) {
+  .work-contents {
+    height: 500px;
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .work-contents {
+    height: 500px;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .work-contents {
+    height: 500px;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .work-container {
+    width: 100%;
+  }
+
+  .works {
+    width: 100%;
+  }
 }
