@@ -21,20 +21,20 @@ const Contact = () => {
                     </div>
                     <div className="address-details">
                         <h2>Address</h2>
-                        <p>Lalapur, kudra</p>
-                        <p>District = Kaimur, Bihar, Near Gayatri Studio</p>
+                        <p>Lalapur, Kaimur, Bihar</p>
+
                     </div>
                 </div>
                 {/* now adding section for the user to send message if he/she wants to talk or send some of the query  */}
                 <div className="contact-form">
                     <form action="">
-                        <div className="formpart1">
-                            <input type="text" placeholder='Name' />
-                            <input type="email" placeholder='Email' />
-                            <input type="text" placeholder='PhoneNumber' />
+                        {/* <div className="formpart1"> */}
+                        <input type="text" placeholder='Name' />
+                        <input type="email" placeholder='Email' />
+                        <input type="text" placeholder='PhoneNumber' />
 
 
-                        </div>
+                        {/* </div> */}
                         <textarea name="query" id="query" cols="30" rows="10" placeholder='Tell me your query'></textarea>
                     </form>
                     <button type="submit">Send Message</button>
