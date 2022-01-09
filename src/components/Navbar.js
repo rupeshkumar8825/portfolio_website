@@ -30,7 +30,7 @@ const Navbar = () => {
     const toggleNavbar = () => {
         console.log("the navbar has been toggled");
         // applying the if else statement 
-        if (toggle == 0) {
+        if (toggle === 0) {
             // then we need to show the navbar in the responsive case 
             setToggle(1);
             navigation2[0].style.display = "block";
