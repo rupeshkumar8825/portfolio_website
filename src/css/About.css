@@ -54,12 +54,14 @@
   font-size: 2rem;
   font-weight: bold;
   display: inline-block;
+  margin-bottom: 8%;
 }
 
 #about-intro {
   background-color: rgba(39, 38, 38, 0.871);
   font-weight: bold;
   display: block;
+  margin-bottom: 5%;
 }
 
 #about-detailed-intro {

@@ -13,11 +13,14 @@ const About = () => {
                 <div className="about-content">
                     <img src={aboutmepic3} alt="My Pic" />
                     <div className="main-content">
-                        <p><span id='about-tagline'>UI/UX Designer & Web Developer.
-                            Based in Bihar. I'm Code & Design things for web.</span>
-                            <span id='about-intro'>I am a professional web designer and developer from Bihar, India.</span>
+                        <p>
+                            <span id='about-tagline'>Web developer and designer.</span>
+                            <span id='about-intro'>Hi, I am Rupesh Kumar specialised in creating beautiful dynamic and static websites from scratch and with latest trends.</span>
 
-                            <span id='about-detailed-intro'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsum laboriosam quas labore autem nulla laudantium accusantium amet et. Odio consectetur ipsum, ab, non repellat illo mollitia asperiores obcaecati, alias harum ipsa quos nostrum molestias. Non et eius fugit quo vero id minima facilis. Corrupti dignissimos est ab quis porro?</span></p>
+                            <span id='about-detailed-intro'>I build dynamic and static websites for youtubers, startups and small business with experience of around 1 year in the field of web development. I make sure that i provide my best services to my clients for their benefit. I optimitse the websites to rank better on the google using the SEO techniques. Always look forward to take ideas and learn from the past experiences. I have worked on few good projects which you can see in the work section.</span>
+                            <span id="about-detailed-intro">
+                                I am familiar with frontend (HTML, CSS, JS, ReactJS), backend(JS, NodeJS, ExpressJS) and MongoDB database. Still learning new technologies as per the current trend.
+                            </span></p>
                         {/* adding the button for the resume. The link to the resume will be provided  */}
                         <a href="https://drive.google.com/file/d/1Gf-gvTbZGLDRY7-4ZWTaDopNknKahi-Q/view"><button className="resume-button">Resume</button></a>
                     </div>

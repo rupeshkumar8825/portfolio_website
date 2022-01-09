@@ -14,7 +14,7 @@ const Home = () => {
             <div className="home-container">
                 <h3>Hi There, I'm</h3>
                 <h1>Rupesh Kumar</h1>
-                <p>UI/UX Designer and Developer</p>
+                <p>Web Developer, Web Designer, Passionate Learner</p>
             </div>
         </>
     )
