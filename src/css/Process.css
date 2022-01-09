@@ -164,3 +164,17 @@
   background-color: white;
   /* border: 2px solid darkred; */
 }
+
+/* adding css code for the responsive design of the portfolio website  */
+@media only screen and (max-width: 1200px) {
+  .step-container {
+    width: 40%;
+    margin-bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .step-container {
+    width: 70%;
+  }
+}
