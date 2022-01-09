@@ -47,7 +47,7 @@
 .skill-bar p {
   text-align: right;
   font-weight: bold;
-
+  /* z-index: 10; */
   color: white;
 }
 /* adding the pseudo selectors for this purpose  */
@@ -59,7 +59,7 @@
   left: 00px;
   top: 00px;
   right: 00px;
-  width: 90%;
+  width: 85%;
   height: 100%;
   background-color: #ff0000;
   /* border-radius: 5%; */
@@ -136,7 +136,7 @@
   left: 00px;
   top: 00px;
   right: 00px;
-  width: 90%;
+  width: 50%;
   height: 100%;
   background-color: white;
   /* border-radius: 5%; */
@@ -155,7 +155,7 @@
   left: 00px;
   top: 00px;
   right: 00px;
-  width: 90%;
+  width: 50%;
   height: 100%;
   background-color: brown;
   /* border-radius: 5%; */
@@ -178,4 +178,28 @@
   /* border: 2px solid white; */
   color: white;
   text-align: center;
+}
+
+/* adding the media query for making the website for the responsive design  */
+@media only screen and (max-width: 1200px) {
+  .particular-skill {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .skill-bar p {
+    /* display: none; */
+    /* width: 100%; */
+  }
+  .particular-skill {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .particular-skill {
+    width: 100%;
+    margin-bottom: 10%;
+  }
 }
