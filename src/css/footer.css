@@ -49,3 +49,8 @@
   color: white;
   background-color: rgba(39, 38, 38, 0.871);
 }
+
+.footer-icons .icons {
+  height: 1px;
+  width: 1px;
+}

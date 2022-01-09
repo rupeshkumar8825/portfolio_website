@@ -10,6 +10,8 @@ import Footer from './components/Footer';
 import Skill from './components/Skills';
 import Process from './components/Process';
 
+
+
 // calling the function if the component is being scrolled 
 // defining the onscroll handler for this in the react
 const handleOnScroll = () => {
